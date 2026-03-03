@@ -1,0 +1,13 @@
+[logging]
+path = ""
+level = "DEBUG"
+
+[gemini]
+model = "gemini-2.0-flash"
+api_key = ""
+
+[impressum]
+prompt_path = "prompts/prompt.txt"
+scheme_path = "schemas/scheme.json"
+keywords = ['impressum', 'legal', 'rechtliches', 'legal-notice', 'kontakt']
+output_path = "result.json"

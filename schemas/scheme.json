@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "properties": {
+    "company_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "address": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "email": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "phone": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "vat_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "found": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "found"
+  ]
+}
