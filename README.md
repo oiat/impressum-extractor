@@ -48,7 +48,7 @@ python main.py --url "https://example.com"
 - Prompt und Schema anpassen, wenn sich das Ausgabeformat ändern soll.
 - Für Debugging: `settings.toml` log-level auf `DEBUG` setzen.
 
-**Beispiel Ausgaben bei Standard nutzung**
+**Beispiel Ausgaben bei Standardnutzung**
 - https://agi-akku.de
 ```json
 {
@@ -99,3 +99,6 @@ python main.py --url "https://example.com"
   "notes": "Ein Firmenname (Mooris.de), eine Telefonnummer und eine E-Mail-Adresse wurden im Text gefunden. Eine vollständige physische Adresse sowie eine Umsatzsteuer-Identifikationsnummer fehlen in diesem Website-Auszug. Der Text deutet darauf hin, dass das Unternehmen ursprünglich aus der Schweiz stammt, aber eine deutsche Support-Nummer nutzt."
 }
 ```
+**Lizenz**
+
+Das Repository wurde im Rahmen des netidee.at-Projekts [Watchlist Internet](https://www.netidee.at/watchlist-internet) entwickelt. Das Projekt steht unter MIT-Lizenz. 
